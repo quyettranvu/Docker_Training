@@ -1,0 +1,21 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "docker, nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "docker",
+    "nodejs"
+  ],
+  "author": "quyettranvu",
+  "license": "ISC",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.22"
+  }
+}
